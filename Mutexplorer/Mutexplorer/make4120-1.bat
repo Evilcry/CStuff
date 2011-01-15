@@ -1,0 +1,2 @@
+@echo off
+g++ -c -O2 -frtti -fexceptions -mthreads -Wall -DUNICODE -DQT_LARGEFILE_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_THREAD_SUPPORT -DQT_NEEDS_QMAIN -I"..\..\..\..\Qt\2010.02.1\qt\include\QtCore" -I"..\..\..\..\Qt\2010.02.1\qt\include\QtGui" -I"..\..\..\..\Qt\2010.02.1\qt\include" -I"..\..\..\..\Qt\2010.02.1\qt\include\ActiveQt" -I"release" -I"." -I"..\..\..\..\Qt\2010.02.1\qt\mkspecs\win32-g++" -o release\mutexplorer.o mutexplorer.cpp
